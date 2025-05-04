@@ -1,0 +1,232 @@
+running egg_info
+creating ../../build/xarm-python-sdk/xarm_python_sdk.egg-info
+writing ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/PKG-INFO
+writing dependency_links to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/dependency_links.txt
+writing top-level names to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/top_level.txt
+writing manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+reading manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm
+copying xarm/build_backend.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm
+copying xarm/version.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm
+copying xarm/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core
+copying xarm/core/version.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core
+copying xarm/core/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/gcode.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/modbus_tcp.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/threads.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/list_ports.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/utils.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/blockly_tool.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+copying xarm/tools/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/track.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/xarm.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/ft_sensor.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/servo.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/studio.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/modbus_tcp.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/base_board.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/base.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/code.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/events.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/grammar_async.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/gpio.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/grammar_coroutine.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/utils.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/decorator.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/parse.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/robotiq.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/gripper.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/record.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+copying xarm/x3/report.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper
+copying xarm/wrapper/studio_api.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper
+copying xarm/wrapper/xarm_api.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper
+copying xarm/wrapper/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config
+copying xarm/core/config/x_code.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config
+copying xarm/core/config/x_config.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config
+copying xarm/core/config/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+copying xarm/core/comm/base.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+copying xarm/core/comm/serial_port.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+copying xarm/core/comm/uxbus_cmd_protocol.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+copying xarm/core/comm/socket_port.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+copying xarm/core/comm/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+copying xarm/core/utils/crc16.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+copying xarm/core/utils/debug_print.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+copying xarm/core/utils/convert.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+copying xarm/core/utils/log.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+copying xarm/core/utils/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+copying xarm/core/wrapper/uxbus_cmd.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+copying xarm/core/wrapper/uxbus_cmd_ser.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+copying xarm/core/wrapper/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+copying xarm/core/wrapper/uxbus_cmd_tcp.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+creating /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/_blockly_node.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/_blockly_tool.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/_blockly_handler.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/_blockly_highlight.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/_blockly_base.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+copying xarm/tools/blockly/__init__.py -> /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+running install
+running install_lib
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config/x_code.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config/x_config.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/config/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/version.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm/base.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm/serial_port.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm/uxbus_cmd_protocol.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm/socket_port.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/comm/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils/crc16.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils/debug_print.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils/convert.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils/log.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/utils/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd_ser.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd_tcp.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/core/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/gcode.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/modbus_tcp.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_node.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_tool.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_handler.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_highlight.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_base.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/threads.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/list_ports.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/utils.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/blockly_tool.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/tools/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/build_backend.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/track.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/xarm.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/ft_sensor.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/servo.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/studio.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/modbus_tcp.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/base_board.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/base.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/code.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/events.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/grammar_async.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/gpio.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/grammar_coroutine.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/utils.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/decorator.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/parse.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/robotiq.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/gripper.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/record.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/x3/report.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/version.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+creating /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper/studio_api.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper/xarm_api.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/wrapper/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+copying /home/dduboi/ros_ws/build/xarm-python-sdk/build/lib/xarm/__init__.py -> /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/x_code.py to x_code.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/x_config.py to x_config.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/version.py to version.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/base.py to base.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/serial_port.py to serial_port.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/uxbus_cmd_protocol.py to uxbus_cmd_protocol.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/socket_port.py to socket_port.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/crc16.py to crc16.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/debug_print.py to debug_print.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/convert.py to convert.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/log.py to log.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd.py to uxbus_cmd.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd_ser.py to uxbus_cmd_ser.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd_tcp.py to uxbus_cmd_tcp.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/gcode.py to gcode.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/modbus_tcp.py to modbus_tcp.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_node.py to _blockly_node.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_tool.py to _blockly_tool.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py to _blockly_handler.cpython-312.pyc
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:448: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:566: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:613: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:645: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1236: SyntaxWarning: invalid escape sequence '\s'
+  code_indent = re.match('(\s*).*', code).group(1)
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1275: SyntaxWarning: invalid escape sequence '\s'
+  cmd_li = re.sub('\s+', ' ', cmd_li)
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_highlight.py to _blockly_highlight.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_base.py to _blockly_base.cpython-312.pyc
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_base.py:204: SyntaxWarning: invalid escape sequence '\s'
+  cmd_li = re.sub('\s+', ' ', cmd_li)
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/threads.py to threads.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/list_ports.py to list_ports.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/utils.py to utils.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly_tool.py to blockly_tool.cpython-312.pyc
+/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly_tool.py:1854: SyntaxWarning: invalid escape sequence '\p'
+  blockly = BlocklyTool('C:\\Users\\ufactory\\.UFACTORY\projects\\test\\xarm6\\app\\myapp\local_test_1\\app.xml')
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/build_backend.py to build_backend.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/track.py to track.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/xarm.py to xarm.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/ft_sensor.py to ft_sensor.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/servo.py to servo.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/studio.py to studio.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/modbus_tcp.py to modbus_tcp.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/base_board.py to base_board.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/base.py to base.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/code.py to code.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/events.py to events.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/grammar_async.py to grammar_async.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/gpio.py to gpio.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/grammar_coroutine.py to grammar_coroutine.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/utils.py to utils.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/decorator.py to decorator.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/parse.py to parse.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/robotiq.py to robotiq.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/gripper.py to gripper.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/record.py to record.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/report.py to report.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/version.py to version.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/studio_api.py to studio_api.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/xarm_api.py to xarm_api.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/__init__.py to __init__.cpython-312.pyc
+running install_egg_info
+Copying ../../build/xarm-python-sdk/xarm_python_sdk.egg-info to /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dduboi/ros_ws/build/xarm-python-sdk/install.log'

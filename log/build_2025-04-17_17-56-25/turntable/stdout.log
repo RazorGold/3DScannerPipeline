@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turntable/turntable.egg-info
+writing ../../build/turntable/turntable.egg-info/PKG-INFO
+writing dependency_links to ../../build/turntable/turntable.egg-info/dependency_links.txt
+writing entry points to ../../build/turntable/turntable.egg-info/entry_points.txt
+writing requirements to ../../build/turntable/turntable.egg-info/requires.txt
+writing top-level names to ../../build/turntable/turntable.egg-info/top_level.txt
+writing manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'
+reading manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'
+writing manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dduboi/ros_ws/build/turntable/build
+creating /home/dduboi/ros_ws/build/turntable/build/lib
+creating /home/dduboi/ros_ws/build/turntable/build/lib/turntable
+copying turntable/turntable_api.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable
+copying turntable/turntable_node.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable
+copying turntable/__init__.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable
+running install
+running install_lib
+creating /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable
+copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/turntable_api.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable
+copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/turntable_node.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable
+copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/__init__.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable
+byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/turntable_api.py to turntable_api.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/turntable_node.py to turntable_node.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/dduboi/ros_ws/install/turntable/share/ament_index
+creating /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index
+creating /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index/packages
+copying resource/turntable -> /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index/packages
+copying package.xml -> /home/dduboi/ros_ws/install/turntable/share/turntable
+running install_egg_info
+Copying ../../build/turntable/turntable.egg-info to /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turntable_node script to /home/dduboi/ros_ws/install/turntable/lib/turntable
+writing list of installed files to '/home/dduboi/ros_ws/build/turntable/install.log'

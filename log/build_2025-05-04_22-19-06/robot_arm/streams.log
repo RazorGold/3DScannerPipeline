@@ -1,0 +1,40 @@
+[1.819s] Invoking command in '/home/dduboi/ros_ws/src/robot_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/dduboi/ros_ws/build/robot_arm/build install --record /home/dduboi/ros_ws/build/robot_arm/install.log --single-version-externally-managed install_data
+[2.136s] running egg_info
+[2.169s] creating ../../build/robot_arm/robot_arm.egg-info
+[2.176s] writing ../../build/robot_arm/robot_arm.egg-info/PKG-INFO
+[2.176s] writing dependency_links to ../../build/robot_arm/robot_arm.egg-info/dependency_links.txt
+[2.176s] writing entry points to ../../build/robot_arm/robot_arm.egg-info/entry_points.txt
+[2.177s] writing requirements to ../../build/robot_arm/robot_arm.egg-info/requires.txt
+[2.177s] writing top-level names to ../../build/robot_arm/robot_arm.egg-info/top_level.txt
+[2.177s] writing manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[2.230s] reading manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[2.231s] writing manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[2.232s] running build
+[2.232s] running build_py
+[2.233s] creating /home/dduboi/ros_ws/build/robot_arm/build
+[2.234s] creating /home/dduboi/ros_ws/build/robot_arm/build/lib
+[2.234s] creating /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm
+[2.235s] copying robot_arm/robot_node.py -> /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm
+[2.235s] copying robot_arm/robotic_arm_api.py -> /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm
+[2.235s] copying robot_arm/__init__.py -> /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm
+[2.236s] running install
+[2.245s] running install_lib
+[2.272s] creating /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[2.272s] copying /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm/robot_node.py -> /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[2.273s] copying /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm/robotic_arm_api.py -> /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[2.273s] copying /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm/__init__.py -> /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[2.273s] byte-compiling /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/robot_node.py to robot_node.cpython-312.pyc
+[2.274s] byte-compiling /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/robotic_arm_api.py to robotic_arm_api.cpython-312.pyc
+[2.278s] byte-compiling /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/__init__.py to __init__.cpython-312.pyc
+[2.279s] running install_data
+[2.279s] creating /home/dduboi/ros_ws/install/robot_arm/share/ament_index
+[2.279s] creating /home/dduboi/ros_ws/install/robot_arm/share/ament_index/resource_index
+[2.280s] creating /home/dduboi/ros_ws/install/robot_arm/share/ament_index/resource_index/packages
+[2.280s] copying resource/robot_arm -> /home/dduboi/ros_ws/install/robot_arm/share/ament_index/resource_index/packages
+[2.280s] copying package.xml -> /home/dduboi/ros_ws/install/robot_arm/share/robot_arm
+[2.280s] running install_egg_info
+[2.307s] Copying ../../build/robot_arm/robot_arm.egg-info to /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info
+[2.309s] running install_scripts
+[2.550s] Installing robot_node script to /home/dduboi/ros_ws/install/robot_arm/lib/robot_arm
+[2.590s] writing list of installed files to '/home/dduboi/ros_ws/build/robot_arm/install.log'
+[3.176s] Invoked command in '/home/dduboi/ros_ws/src/robot_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/dduboi/ros_ws/build/robot_arm/build install --record /home/dduboi/ros_ws/build/robot_arm/install.log --single-version-externally-managed install_data

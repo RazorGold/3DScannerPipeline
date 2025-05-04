@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/capture/capture.egg-info
+writing ../../build/capture/capture.egg-info/PKG-INFO
+writing dependency_links to ../../build/capture/capture.egg-info/dependency_links.txt
+writing requirements to ../../build/capture/capture.egg-info/requires.txt
+writing top-level names to ../../build/capture/capture.egg-info/top_level.txt
+writing manifest file '../../build/capture/capture.egg-info/SOURCES.txt'
+reading manifest file '../../build/capture/capture.egg-info/SOURCES.txt'
+writing manifest file '../../build/capture/capture.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dduboi/ros_ws/build/capture/build
+creating /home/dduboi/ros_ws/build/capture/build/lib
+creating /home/dduboi/ros_ws/build/capture/build/lib/capture
+copying capture/__init__.py -> /home/dduboi/ros_ws/build/capture/build/lib/capture
+running install
+running install_lib
+creating /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture
+copying /home/dduboi/ros_ws/build/capture/build/lib/capture/__init__.py -> /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture
+byte-compiling /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/dduboi/ros_ws/install/capture/share/ament_index
+creating /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index
+creating /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index/packages
+copying resource/capture -> /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index/packages
+copying package.xml -> /home/dduboi/ros_ws/install/capture/share/capture
+running install_egg_info
+Copying ../../build/capture/capture.egg-info to /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dduboi/ros_ws/build/capture/install.log'

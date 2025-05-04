@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.002645] (capture) JobQueued: {'identifier': 'capture', 'dependencies': OrderedDict()}
+[0.002868] (central_control) JobQueued: {'identifier': 'central_control', 'dependencies': OrderedDict()}
+[0.002982] (turntable) JobQueued: {'identifier': 'turntable', 'dependencies': OrderedDict()}
+[0.003009] (capture) JobStarted: {'identifier': 'capture'}
+[0.028525] (central_control) JobStarted: {'identifier': 'central_control'}
+[0.035115] (turntable) JobStarted: {'identifier': 'turntable'}
+[0.101373] (-) TimerEvent: {}
+[0.201908] (-) TimerEvent: {}
+[0.302543] (-) TimerEvent: {}
+[0.515762] (-) TimerEvent: {}
+[0.685892] (-) TimerEvent: {}
+[0.788183] (-) TimerEvent: {}
+[0.920099] (-) TimerEvent: {}
+[1.052968] (-) TimerEvent: {}
+[1.169253] (-) TimerEvent: {}
+[1.273665] (-) TimerEvent: {}
+[1.375148] (-) TimerEvent: {}
+[1.476164] (-) TimerEvent: {}
+[1.577165] (-) TimerEvent: {}
+[1.677965] (-) TimerEvent: {}
+[1.778699] (-) TimerEvent: {}
+[1.879059] (-) TimerEvent: {}
+[1.979529] (-) TimerEvent: {}
+[2.085882] (-) TimerEvent: {}
+[2.269872] (-) TimerEvent: {}
+[2.372326] (-) TimerEvent: {}
+[2.382385] (central_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/central_control', 'build', '--build-base', '/home/dduboi/ros_ws/build/central_control/build', 'install', '--record', '/home/dduboi/ros_ws/build/central_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dduboi/ros_ws/src/central_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dduboi', 'SSH_CLIENT': '100.68.174.99 62592 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dduboi', 'OLDPWD': '/home/dduboi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dduboi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dduboi/ros_ws/build/central_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.68.174.99 62592 100.119.97.90 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dduboi/ros_ws/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.406274] (capture) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/capture', 'build', '--build-base', '/home/dduboi/ros_ws/build/capture/build', 'install', '--record', '/home/dduboi/ros_ws/build/capture/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dduboi/ros_ws/src/capture', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dduboi', 'SSH_CLIENT': '100.68.174.99 62592 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dduboi', 'OLDPWD': '/home/dduboi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dduboi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dduboi/ros_ws/build/capture', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.68.174.99 62592 100.119.97.90 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dduboi/ros_ws/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.419565] (turntable) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turntable', 'build', '--build-base', '/home/dduboi/ros_ws/build/turntable/build', 'install', '--record', '/home/dduboi/ros_ws/build/turntable/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dduboi/ros_ws/src/turntable', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dduboi', 'SSH_CLIENT': '100.68.174.99 62592 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dduboi', 'OLDPWD': '/home/dduboi', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dduboi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '13', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dduboi/ros_ws/build/turntable', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.68.174.99 62592 100.119.97.90 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dduboi/ros_ws/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.750486] (central_control) StdoutLine: {'line': b'running egg_info\n'}
+[2.750724] (-) TimerEvent: {}
+[2.756642] (central_control) StdoutLine: {'line': b'creating ../../build/central_control/central_control.egg-info\n'}
+[2.758740] (capture) StdoutLine: {'line': b'running egg_info\n'}
+[2.758873] (capture) StdoutLine: {'line': b'creating ../../build/capture/capture.egg-info\n'}
+[2.780081] (central_control) StdoutLine: {'line': b'writing ../../build/central_control/central_control.egg-info/PKG-INFO\n'}
+[2.781924] (central_control) StdoutLine: {'line': b'writing dependency_links to ../../build/central_control/central_control.egg-info/dependency_links.txt\n'}
+[2.782053] (central_control) StdoutLine: {'line': b'writing entry points to ../../build/central_control/central_control.egg-info/entry_points.txt\n'}
+[2.782189] (central_control) StdoutLine: {'line': b'writing requirements to ../../build/central_control/central_control.egg-info/requires.txt\n'}
+[2.782281] (central_control) StdoutLine: {'line': b'writing top-level names to ../../build/central_control/central_control.egg-info/top_level.txt\n'}
+[2.782361] (central_control) StdoutLine: {'line': b"writing manifest file '../../build/central_control/central_control.egg-info/SOURCES.txt'\n"}
+[2.786409] (capture) StdoutLine: {'line': b'writing ../../build/capture/capture.egg-info/PKG-INFO\n'}
+[2.786720] (capture) StdoutLine: {'line': b'writing dependency_links to ../../build/capture/capture.egg-info/dependency_links.txt\n'}
+[2.839620] (central_control) StdoutLine: {'line': b"reading manifest file '../../build/central_control/central_control.egg-info/SOURCES.txt'\n"}
+[2.846226] (central_control) StdoutLine: {'line': b"writing manifest file '../../build/central_control/central_control.egg-info/SOURCES.txt'\n"}
+[2.847157] (central_control) StdoutLine: {'line': b'running build\n'}
+[2.848008] (central_control) StdoutLine: {'line': b'running build_py\n'}
+[2.848863] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/central_control/build\n'}
+[2.849827] (capture) StdoutLine: {'line': b'writing requirements to ../../build/capture/capture.egg-info/requires.txt\n'}
+[2.850613] (capture) StdoutLine: {'line': b'writing top-level names to ../../build/capture/capture.egg-info/top_level.txt\n'}
+[2.851346] (-) TimerEvent: {}
+[2.851665] (capture) StdoutLine: {'line': b"writing manifest file '../../build/capture/capture.egg-info/SOURCES.txt'\n"}
+[2.851788] (capture) StdoutLine: {'line': b"reading manifest file '../../build/capture/capture.egg-info/SOURCES.txt'\n"}
+[2.851884] (capture) StdoutLine: {'line': b"writing manifest file '../../build/capture/capture.egg-info/SOURCES.txt'\n"}
+[2.851975] (capture) StdoutLine: {'line': b'running build\n'}
+[2.852068] (capture) StdoutLine: {'line': b'running build_py\n'}
+[2.852169] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/capture/build\n'}
+[2.852290] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/capture/build/lib\n'}
+[2.852399] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/capture/build/lib/capture\n'}
+[2.852491] (capture) StdoutLine: {'line': b'copying capture/__init__.py -> /home/dduboi/ros_ws/build/capture/build/lib/capture\n'}
+[2.852599] (capture) StdoutLine: {'line': b'running install\n'}
+[2.852737] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/central_control/build/lib\n'}
+[2.852835] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/central_control/build/lib/central_control\n'}
+[2.852926] (central_control) StdoutLine: {'line': b'copying central_control/__init__.py -> /home/dduboi/ros_ws/build/central_control/build/lib/central_control\n'}
+[2.853015] (central_control) StdoutLine: {'line': b'copying central_control/central_node.py -> /home/dduboi/ros_ws/build/central_control/build/lib/central_control\n'}
+[2.853103] (central_control) StdoutLine: {'line': b'running install\n'}
+[2.863070] (capture) StdoutLine: {'line': b'running install_lib\n'}
+[2.864000] (central_control) StdoutLine: {'line': b'running install_lib\n'}
+[2.885481] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture\n'}
+[2.885751] (capture) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/capture/build/lib/capture/__init__.py -> /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture\n'}
+[2.887096] (capture) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture/__init__.py to __init__.cpython-312.pyc\n'}
+[2.887338] (capture) StdoutLine: {'line': b'running install_data\n'}
+[2.887446] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/capture/share/ament_index\n'}
+[2.887536] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index\n'}
+[2.887621] (capture) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index/packages\n'}
+[2.887757] (capture) StdoutLine: {'line': b'copying resource/capture -> /home/dduboi/ros_ws/install/capture/share/ament_index/resource_index/packages\n'}
+[2.887897] (capture) StdoutLine: {'line': b'copying package.xml -> /home/dduboi/ros_ws/install/capture/share/capture\n'}
+[2.887991] (capture) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.897196] (turntable) StdoutLine: {'line': b'running egg_info\n'}
+[2.897749] (turntable) StdoutLine: {'line': b'creating ../../build/turntable/turntable.egg-info\n'}
+[2.902529] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control\n'}
+[2.902932] (central_control) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/central_control/build/lib/central_control/__init__.py -> /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control\n'}
+[2.903306] (central_control) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/central_control/build/lib/central_control/central_node.py -> /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control\n'}
+[2.904870] (central_control) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control/__init__.py to __init__.cpython-312.pyc\n'}
+[2.905697] (central_control) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control/central_node.py to central_node.cpython-312.pyc\n'}
+[2.908186] (central_control) StdoutLine: {'line': b'running install_data\n'}
+[2.908932] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/central_control/share/ament_index\n'}
+[2.909300] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/central_control/share/ament_index/resource_index\n'}
+[2.909568] (central_control) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/central_control/share/ament_index/resource_index/packages\n'}
+[2.910718] (central_control) StdoutLine: {'line': b'copying resource/central_control -> /home/dduboi/ros_ws/install/central_control/share/ament_index/resource_index/packages\n'}
+[2.910907] (central_control) StdoutLine: {'line': b'copying package.xml -> /home/dduboi/ros_ws/install/central_control/share/central_control\n'}
+[2.911240] (central_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.917424] (capture) StdoutLine: {'line': b'Copying ../../build/capture/capture.egg-info to /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture-0.0.0-py3.12.egg-info\n'}
+[2.918270] (capture) StdoutLine: {'line': b'running install_scripts\n'}
+[2.934823] (turntable) StdoutLine: {'line': b'writing ../../build/turntable/turntable.egg-info/PKG-INFO\n'}
+[2.935721] (turntable) StdoutLine: {'line': b'writing dependency_links to ../../build/turntable/turntable.egg-info/dependency_links.txt\n'}
+[2.936647] (turntable) StdoutLine: {'line': b'writing entry points to ../../build/turntable/turntable.egg-info/entry_points.txt\n'}
+[2.936787] (turntable) StdoutLine: {'line': b'writing requirements to ../../build/turntable/turntable.egg-info/requires.txt\n'}
+[2.950607] (turntable) StdoutLine: {'line': b'writing top-level names to ../../build/turntable/turntable.egg-info/top_level.txt\n'}
+[2.951338] (turntable) StdoutLine: {'line': b"writing manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'\n"}
+[2.952050] (-) TimerEvent: {}
+[2.952617] (central_control) StdoutLine: {'line': b'Copying ../../build/central_control/central_control.egg-info to /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control-0.0.0-py3.12.egg-info\n'}
+[2.955417] (central_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.003956] (turntable) StdoutLine: {'line': b"reading manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'\n"}
+[3.005819] (turntable) StdoutLine: {'line': b"writing manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'\n"}
+[3.006581] (turntable) StdoutLine: {'line': b'running build\n'}
+[3.007090] (turntable) StdoutLine: {'line': b'running build_py\n'}
+[3.007766] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/turntable/build\n'}
+[3.008365] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/turntable/build/lib\n'}
+[3.008463] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/build/turntable/build/lib/turntable\n'}
+[3.008895] (turntable) StdoutLine: {'line': b'copying turntable/turntable_api.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable\n'}
+[3.009009] (turntable) StdoutLine: {'line': b'copying turntable/turntable_node.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable\n'}
+[3.009450] (turntable) StdoutLine: {'line': b'copying turntable/__init__.py -> /home/dduboi/ros_ws/build/turntable/build/lib/turntable\n'}
+[3.009556] (turntable) StdoutLine: {'line': b'running install\n'}
+[3.018487] (turntable) StdoutLine: {'line': b'running install_lib\n'}
+[3.043775] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable\n'}
+[3.044607] (turntable) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/turntable_api.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable\n'}
+[3.045322] (turntable) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/turntable_node.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable\n'}
+[3.046019] (turntable) StdoutLine: {'line': b'copying /home/dduboi/ros_ws/build/turntable/build/lib/turntable/__init__.py -> /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable\n'}
+[3.047175] (turntable) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/turntable_api.py to turntable_api.cpython-312.pyc\n'}
+[3.048190] (turntable) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/turntable_node.py to turntable_node.cpython-312.pyc\n'}
+[3.049259] (turntable) StdoutLine: {'line': b'byte-compiling /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable/__init__.py to __init__.cpython-312.pyc\n'}
+[3.049543] (turntable) StdoutLine: {'line': b'running install_data\n'}
+[3.049827] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/turntable/share/ament_index\n'}
+[3.050010] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index\n'}
+[3.050389] (turntable) StdoutLine: {'line': b'creating /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index/packages\n'}
+[3.050495] (turntable) StdoutLine: {'line': b'copying resource/turntable -> /home/dduboi/ros_ws/install/turntable/share/ament_index/resource_index/packages\n'}
+[3.050576] (turntable) StdoutLine: {'line': b'copying package.xml -> /home/dduboi/ros_ws/install/turntable/share/turntable\n'}
+[3.050653] (turntable) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.056562] (-) TimerEvent: {}
+[3.080585] (turntable) StdoutLine: {'line': b'Copying ../../build/turntable/turntable.egg-info to /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable-0.0.0-py3.12.egg-info\n'}
+[3.082759] (turntable) StdoutLine: {'line': b'running install_scripts\n'}
+[3.099760] (capture) StdoutLine: {'line': b"writing list of installed files to '/home/dduboi/ros_ws/build/capture/install.log'\n"}
+[3.163308] (-) TimerEvent: {}
+[3.166349] (central_control) StdoutLine: {'line': b'Installing central_node script to /home/dduboi/ros_ws/install/central_control/lib/central_control\n'}
+[3.172503] (central_control) StdoutLine: {'line': b"writing list of installed files to '/home/dduboi/ros_ws/build/central_control/install.log'\n"}
+[3.175397] (capture) CommandEnded: {'returncode': 0}
+[3.220012] (capture) JobEnded: {'identifier': 'capture', 'rc': 0}
+[3.241729] (central_control) CommandEnded: {'returncode': 0}
+[3.262341] (central_control) JobEnded: {'identifier': 'central_control', 'rc': 0}
+[3.263504] (-) TimerEvent: {}
+[3.299325] (turntable) StdoutLine: {'line': b'Installing turntable_node script to /home/dduboi/ros_ws/install/turntable/lib/turntable\n'}
+[3.300481] (turntable) StdoutLine: {'line': b"writing list of installed files to '/home/dduboi/ros_ws/build/turntable/install.log'\n"}
+[3.344483] (turntable) CommandEnded: {'returncode': 0}
+[3.361637] (turntable) JobEnded: {'identifier': 'turntable', 'rc': 0}
+[3.366886] (-) TimerEvent: {}
+[3.367717] (-) EventReactorShutdown: {}

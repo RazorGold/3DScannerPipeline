@@ -1,0 +1,226 @@
+[0.350s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.350s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c6bf5b6edb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c6bf5b6eae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c6bf5b6eae0>>, mixin_verb=('build',))
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.480s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dduboi/ros_ws'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/capture) by extension 'ros'
+[0.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/capture' with type 'ros.ament_python' and name 'capture'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_control) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/central_control' with type 'ros.ament_python' and name 'central_control'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/turntable) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turntable' with type 'ros.ament_python' and name 'turntable'
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.597s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_target' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/build/capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/install/capture', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/capture', 'symlink_install': False, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'central_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/build/central_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/install/central_control', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/central_control', 'symlink_install': False, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'turntable' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/build/turntable', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/install/turntable', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/turntable', 'symlink_install': False, 'test_result_base': None}
+[0.651s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.655s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/capture' with build type 'ament_python'
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture', 'ament_prefix_path')
+[0.669s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/capture/share/capture/hook/ament_prefix_path.ps1'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/capture/share/capture/hook/ament_prefix_path.dsv'
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/capture/share/capture/hook/ament_prefix_path.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/central_control' with build type 'ament_python'
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_control', 'ament_prefix_path')
+[0.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/ament_prefix_path.ps1'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/ament_prefix_path.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/ament_prefix_path.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/turntable' with build type 'ament_python'
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('turntable', 'ament_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/ament_prefix_path.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/ament_prefix_path.dsv'
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/ament_prefix_path.sh'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.978s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/capture'
+[0.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/central_control'
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/turntable'
+[1.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/central_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_control build --build-base /home/dduboi/ros_ws/build/central_control/build install --record /home/dduboi/ros_ws/build/central_control/install.log --single-version-externally-managed install_data
+[3.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/capture build --build-base /home/dduboi/ros_ws/build/capture/build install --record /home/dduboi/ros_ws/build/capture/install.log --single-version-externally-managed install_data
+[3.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/turntable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turntable build --build-base /home/dduboi/ros_ws/build/turntable/build install --record /home/dduboi/ros_ws/build/turntable/install.log --single-version-externally-managed install_data
+[3.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/capture build --build-base /home/dduboi/ros_ws/build/capture/build install --record /home/dduboi/ros_ws/build/capture/install.log --single-version-externally-managed install_data
+[3.848s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture' for CMake module files
+[3.849s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture' for CMake config files
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture/lib'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture/bin'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture/lib/pkgconfig/capture.pc'
+[3.852s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages'
+[3.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture', 'pythonpath')
+[3.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/capture/share/capture/hook/pythonpath.ps1'
+[3.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/capture/share/capture/hook/pythonpath.dsv'
+[3.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/capture/share/capture/hook/pythonpath.sh'
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/capture/bin'
+[3.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(capture)
+[3.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/capture/share/capture/package.ps1'
+[3.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/install/capture/share/capture/package.dsv'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/capture/share/capture/package.sh'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/capture/share/capture/package.bash'
+[3.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/capture/share/capture/package.zsh'
+[3.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/install/capture/share/colcon-core/packages/capture)
+[3.894s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control' for CMake module files
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control' for CMake config files
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control/lib'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control/bin'
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control/lib/pkgconfig/central_control.pc'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages'
+[3.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_control', 'pythonpath')
+[3.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/central_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_control build --build-base /home/dduboi/ros_ws/build/central_control/build install --record /home/dduboi/ros_ws/build/central_control/install.log --single-version-externally-managed install_data
+[3.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/pythonpath.ps1'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/pythonpath.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/central_control/share/central_control/hook/pythonpath.sh'
+[3.908s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/central_control/bin'
+[3.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(central_control)
+[3.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/central_control/share/central_control/package.ps1'
+[3.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/install/central_control/share/central_control/package.dsv'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/central_control/share/central_control/package.sh'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/central_control/share/central_control/package.bash'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/central_control/share/central_control/package.zsh'
+[3.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/install/central_control/share/colcon-core/packages/central_control)
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable' for CMake module files
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable' for CMake config files
+[3.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/turntable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turntable build --build-base /home/dduboi/ros_ws/build/turntable/build install --record /home/dduboi/ros_ws/build/turntable/install.log --single-version-externally-managed install_data
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable/lib'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable/bin'
+[4.000s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable/lib/pkgconfig/turntable.pc'
+[4.001s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages'
+[4.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('turntable', 'pythonpath')
+[4.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/pythonpath.ps1'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/pythonpath.dsv'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/install/turntable/share/turntable/hook/pythonpath.sh'
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/install/turntable/bin'
+[4.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turntable)
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/turntable/share/turntable/package.ps1'
+[4.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/install/turntable/share/turntable/package.dsv'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/turntable/share/turntable/package.sh'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/turntable/share/turntable/package.bash'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/install/turntable/share/turntable/package.zsh'
+[4.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/install/turntable/share/colcon-core/packages/turntable)
+[4.011s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.014s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.035s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.077s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/install/local_setup.ps1'
+[4.080s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dduboi/ros_ws/install/_local_setup_util_ps1.py'
+[4.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/install/setup.ps1'
+[4.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/install/local_setup.sh'
+[4.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dduboi/ros_ws/install/_local_setup_util_sh.py'
+[4.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/install/setup.sh'
+[4.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/install/local_setup.bash'
+[4.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/install/setup.bash'
+[4.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/install/local_setup.zsh'
+[4.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/install/setup.zsh'
