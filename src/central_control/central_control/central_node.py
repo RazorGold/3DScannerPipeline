@@ -4,6 +4,7 @@ from std_msgs.msg import String
 from std_srvs.srv import Trigger
 from enum import Enum
 import threading
+import sys
 
 class ScannerState(Enum):
     IDLE = 'IDLE'
@@ -12,75 +13,81 @@ class ScannerState(Enum):
     PROCESSING = 'PROCESSING'
     EVALUATION = 'EVALUATION'
     ERROR = 'ERROR'
+    WAITING = 'WAITING'
 
 class CentralNode(Node):
     def __init__(self):
         super().__init__('central_node')
         self.state = ScannerState.IDLE
         self.paused = False
+        self._skip_wait = False
 
         # Publishers and Subscribers
         self.command_pub = self.create_publisher(String, 'central_control/command', 10)
         self.capture_pub = self.create_publisher(String, 'capture/command', 10)
-        self.ui_sub = self.create_subscription(String, 'ui/start', self.ui_callback, 10)
+        self.ui_sub = self.create_subscription(String, 'ui/command', self.ui_callback, 10)
+        self.control_sub = self.create_subscription(String, '/central_control/input', self.control_callback, 10)
 
         # Service Clients
         self.turntable_client = self.create_client(Trigger, 'rotate_turntable_once')
         self.robot_arm_client = self.create_client(Trigger, 'run_arm_sequence')
 
-        # Wait for services
+        # Wait for services with interrupt support
         self.wait_for_services()
 
         # Periodic timer
         self.timer = self.create_timer(2.0, self.timer_callback)
 
-        # Start input listener thread
-        threading.Thread(target=self.input_thread, daemon=True).start()
-
         self.get_logger().info("Central Control Node initialized.")
 
     def wait_for_services(self):
-        self.get_logger().info('Waiting for required services...')
-        while not self.turntable_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Waiting for turntable service...')
-        while not self.robot_arm_client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Waiting for robot arm service...')
-        self.get_logger().info('All services available.')
+        self.get_logger().info('Waiting for required services (type "skip" to override)...')
+        while rclpy.ok():
+            if self._skip_wait:
+                self.get_logger().warn("Skipping service wait due to user command.")
+                break
+            if self.turntable_client.service_is_ready() and self.robot_arm_client.service_is_ready():
+                self.get_logger().info("All required services are now available.")
+                break
+            rclpy.spin_once(self, timeout_sec=0.5)
 
-def input_thread(self):
-    state_order = [
-        ScannerState.IDLE,
-        ScannerState.CALIBRATION,
-        ScannerState.SCANNING,
-        ScannerState.PROCESSING,
-        ScannerState.EVALUATION,
-        ScannerState.IDLE  # After evaluation, loop back to idle
-    ]
+    def control_callback(self, msg: String):
+        cmd = msg.data.strip().lower()
+        self.get_logger().info(f"Received control command: {cmd}")
 
-    while rclpy.ok():
-        try:
-            cmd = input(">> ").strip().lower()
-            if cmd == 'pause':
-                self.paused = True
-                self.get_logger().info("System paused.")
-            elif cmd == 'resume':
-                self.paused = False
-                self.get_logger().info("System resumed.")
-            elif cmd == 'skip':
-                try:
-                    current_index = state_order.index(self.state)
-                    next_state = state_order[(current_index + 1) % len(state_order)]
-                    self.get_logger().info("Skip command received. Forcing transition: {self.state.value} → {next_state.value}")
-                    self.state = next_state
-                except ValueError:
-                    self.get_logger().warn("Current state not in skip sequence. No action taken.")
-        except EOFError:
-            break
+        state_order = [
+            ScannerState.IDLE,
+            ScannerState.CALIBRATION,
+            ScannerState.SCANNING,
+            ScannerState.PROCESSING,
+            ScannerState.EVALUATION,
+            ScannerState.IDLE
+        ]
+
+        if cmd == 'pause':
+            self.paused = True
+            self.get_logger().info("System paused (via topic).")
+        elif cmd == 'resume':
+            self.paused = False
+            self.get_logger().info("System resumed (via topic).")
+        elif cmd == 'skip':
+            self._skip_wait = True
+            try:
+                idx = state_order.index(self.state)
+                next_state = state_order[(idx + 1) % len(state_order)]
+                self.get_logger().info(f"Skip command received. Forcing transition: {self.state.value} → {next_state.value}")
+                self.state = next_state
+            except ValueError:
+                self.get_logger().warn("Current state not in state_order list.")
+        else:
+            self.get_logger().warn(f"Unknown command received: {cmd}")
 
     def ui_callback(self, msg: String):
         if self.state == ScannerState.IDLE and msg.data.strip().lower() == 'start':
             self.get_logger().info("Start command received from UI. Transitioning to CALIBRATION.")
             self.state = ScannerState.CALIBRATION
+        else:
+            self.get_logger().info(f"Ignoring UI message: {msg.data} (Current state: {self.state.value})")
 
     def timer_callback(self):
         if self.paused:
@@ -98,13 +105,17 @@ def input_thread(self):
 
     def handle_calibration(self):
         self.get_logger().info("Checking if all nodes are responsive...")
-        # Could extend to ping nodes via dedicated topics/services
         self.state = ScannerState.SCANNING
         self.get_logger().info("Calibration checks passed. Transitioning to SCANNING.")
 
     def handle_scanning(self):
         self.get_logger().info("Initiating scanning sequence...")
-        
+
+        if not self.turntable_client.service_is_ready() or not self.robot_arm_client.service_is_ready():
+            self.get_logger().warn("One or more services unavailable. Transitioning to ERROR.")
+            self.state = ScannerState.ERROR
+            return
+
         arm_future = self.robot_arm_client.call_async(Trigger.Request())
         table_future = self.turntable_client.call_async(Trigger.Request())
 
@@ -125,17 +136,14 @@ def input_thread(self):
         self.state = ScannerState.WAITING
 
     def handle_waiting(self):
-        # Do nothing while waiting for async service completion
         pass
 
     def handle_processing(self):
         self.get_logger().info("Processing data...")
-        # Stub: add detailed processing logic later
         self.state = ScannerState.EVALUATION
 
     def handle_evaluation(self):
         self.get_logger().info("Evaluating scan...")
-        # Stub: implement evaluation logic later
         evaluation_passed = True
         self.state = ScannerState.IDLE if evaluation_passed else ScannerState.SCANNING
 

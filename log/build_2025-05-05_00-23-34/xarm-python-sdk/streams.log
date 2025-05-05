@@ -1,0 +1,18 @@
+[1.478s] Invoking command in '/home/dduboi/ros_ws/src/xarm_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/build/xarm-python-sdk/install.log --single-version-externally-managed
+[1.900s] running egg_info
+[1.923s] writing ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/PKG-INFO
+[1.924s] writing dependency_links to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/dependency_links.txt
+[1.924s] writing top-level names to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/top_level.txt
+[1.967s] reading manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+[1.968s] adding license file 'LICENSE'
+[1.969s] writing manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+[1.970s] running build
+[1.971s] running build_py
+[1.973s] running install
+[1.980s] running install_lib
+[2.002s] running install_egg_info
+[2.022s] removing '/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info' (and everything under it)
+[2.026s] Copying ../../build/xarm-python-sdk/xarm_python_sdk.egg-info to /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info
+[2.027s] running install_scripts
+[2.069s] writing list of installed files to '/home/dduboi/ros_ws/build/xarm-python-sdk/install.log'
+[2.104s] Invoked command in '/home/dduboi/ros_ws/src/xarm_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/build/xarm-python-sdk/install.log --single-version-externally-managed

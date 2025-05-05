@@ -1,0 +1,16 @@
+running egg_info
+writing ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/PKG-INFO
+writing dependency_links to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/dependency_links.txt
+writing top-level names to ../../build/xarm-python-sdk/xarm_python_sdk.egg-info/top_level.txt
+reading manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info' (and everything under it)
+Copying ../../build/xarm-python-sdk/xarm_python_sdk.egg-info to /home/dduboi/ros_ws/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dduboi/ros_ws/build/xarm-python-sdk/install.log'

@@ -1,0 +1,24 @@
+[1.809s] Invoking command in '/home/dduboi/ros_ws/src/central_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_control build --build-base /home/dduboi/ros_ws/build/central_control/build install --record /home/dduboi/ros_ws/build/central_control/install.log --single-version-externally-managed install_data
+[2.144s] running egg_info
+[2.169s] writing ../../build/central_control/central_control.egg-info/PKG-INFO
+[2.170s] writing dependency_links to ../../build/central_control/central_control.egg-info/dependency_links.txt
+[2.171s] writing entry points to ../../build/central_control/central_control.egg-info/entry_points.txt
+[2.172s] writing requirements to ../../build/central_control/central_control.egg-info/requires.txt
+[2.172s] writing top-level names to ../../build/central_control/central_control.egg-info/top_level.txt
+[2.226s] reading manifest file '../../build/central_control/central_control.egg-info/SOURCES.txt'
+[2.227s] writing manifest file '../../build/central_control/central_control.egg-info/SOURCES.txt'
+[2.229s] running build
+[2.230s] running build_py
+[2.230s] copying central_control/central_node.py -> /home/dduboi/ros_ws/build/central_control/build/lib/central_control
+[2.230s] running install
+[2.242s] running install_lib
+[2.269s] copying /home/dduboi/ros_ws/build/central_control/build/lib/central_control/central_node.py -> /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control
+[2.274s] byte-compiling /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control/central_node.py to central_node.cpython-312.pyc
+[2.275s] running install_data
+[2.275s] running install_egg_info
+[2.301s] removing '/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control-0.0.0-py3.12.egg-info' (and everything under it)
+[2.304s] Copying ../../build/central_control/central_control.egg-info to /home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages/central_control-0.0.0-py3.12.egg-info
+[2.305s] running install_scripts
+[2.485s] Installing central_node script to /home/dduboi/ros_ws/install/central_control/lib/central_control
+[2.486s] writing list of installed files to '/home/dduboi/ros_ws/build/central_control/install.log'
+[2.528s] Invoked command in '/home/dduboi/ros_ws/src/central_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_control build --build-base /home/dduboi/ros_ws/build/central_control/build install --record /home/dduboi/ros_ws/build/central_control/install.log --single-version-externally-managed install_data
