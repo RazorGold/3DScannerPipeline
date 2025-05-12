@@ -41,7 +41,7 @@ class UINode(Node):
 
 
 def run_flask():
-    app.run(host='0.0.0.0', port=5000)  # Listen on all interfaces
+    app.run(host='0.0.0.0', port=8000)  # Listen on all interfaces
 
 
 def main(args=None):
