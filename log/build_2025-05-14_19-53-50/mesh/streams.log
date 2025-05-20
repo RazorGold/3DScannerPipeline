@@ -1,0 +1,35 @@
+[1.993s] Invoking command in '/home/dduboi/ros_ws/src/mesh': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mesh build --build-base /home/dduboi/ros_ws/build/mesh/build install --record /home/dduboi/ros_ws/build/mesh/install.log --single-version-externally-managed install_data
+[2.472s] running egg_info
+[2.482s] creating ../../build/mesh/mesh.egg-info
+[2.488s] writing ../../build/mesh/mesh.egg-info/PKG-INFO
+[2.489s] writing dependency_links to ../../build/mesh/mesh.egg-info/dependency_links.txt
+[2.496s] writing requirements to ../../build/mesh/mesh.egg-info/requires.txt
+[2.499s] writing top-level names to ../../build/mesh/mesh.egg-info/top_level.txt
+[2.499s] writing manifest file '../../build/mesh/mesh.egg-info/SOURCES.txt'
+[2.574s] reading manifest file '../../build/mesh/mesh.egg-info/SOURCES.txt'
+[2.576s] writing manifest file '../../build/mesh/mesh.egg-info/SOURCES.txt'
+[2.578s] running build
+[2.578s] running build_py
+[2.579s] creating /home/dduboi/ros_ws/build/mesh/build
+[2.580s] creating /home/dduboi/ros_ws/build/mesh/build/lib
+[2.581s] creating /home/dduboi/ros_ws/build/mesh/build/lib/mesh
+[2.582s] copying mesh/meshing_node.py -> /home/dduboi/ros_ws/build/mesh/build/lib/mesh
+[2.583s] copying mesh/__init__.py -> /home/dduboi/ros_ws/build/mesh/build/lib/mesh
+[2.588s] running install
+[2.609s] running install_lib
+[2.640s] creating /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh
+[2.641s] copying /home/dduboi/ros_ws/build/mesh/build/lib/mesh/meshing_node.py -> /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh
+[2.642s] copying /home/dduboi/ros_ws/build/mesh/build/lib/mesh/__init__.py -> /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh
+[2.643s] byte-compiling /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh/meshing_node.py to meshing_node.cpython-312.pyc
+[2.644s] byte-compiling /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh/__init__.py to __init__.cpython-312.pyc
+[2.645s] running install_data
+[2.645s] creating /home/dduboi/ros_ws/install/mesh/share/ament_index
+[2.646s] creating /home/dduboi/ros_ws/install/mesh/share/ament_index/resource_index
+[2.646s] creating /home/dduboi/ros_ws/install/mesh/share/ament_index/resource_index/packages
+[2.647s] copying resource/mesh -> /home/dduboi/ros_ws/install/mesh/share/ament_index/resource_index/packages
+[2.648s] copying package.xml -> /home/dduboi/ros_ws/install/mesh/share/mesh
+[2.648s] running install_egg_info
+[2.689s] Copying ../../build/mesh/mesh.egg-info to /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh-0.0.0-py3.12.egg-info
+[2.692s] running install_scripts
+[2.937s] writing list of installed files to '/home/dduboi/ros_ws/build/mesh/install.log'
+[3.022s] Invoked command in '/home/dduboi/ros_ws/src/mesh' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mesh build --build-base /home/dduboi/ros_ws/build/mesh/build install --record /home/dduboi/ros_ws/build/mesh/install.log --single-version-externally-managed install_data

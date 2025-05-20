@@ -1,0 +1,2 @@
+[console_scripts]
+meshing_node = mesh.meshing_node:main
