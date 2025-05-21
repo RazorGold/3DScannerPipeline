@@ -1,0 +1,21 @@
+[1.011s] Invoking command in '/home/dduboi/ros_ws/src/turntable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turntable build --build-base /home/dduboi/ros_ws/build/turntable/build install --record /home/dduboi/ros_ws/build/turntable/install.log --single-version-externally-managed install_data
+[1.292s] running egg_info
+[1.331s] writing ../../build/turntable/turntable.egg-info/PKG-INFO
+[1.331s] writing dependency_links to ../../build/turntable/turntable.egg-info/dependency_links.txt
+[1.331s] writing entry points to ../../build/turntable/turntable.egg-info/entry_points.txt
+[1.331s] writing requirements to ../../build/turntable/turntable.egg-info/requires.txt
+[1.331s] writing top-level names to ../../build/turntable/turntable.egg-info/top_level.txt
+[1.376s] reading manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'
+[1.378s] writing manifest file '../../build/turntable/turntable.egg-info/SOURCES.txt'
+[1.378s] running build
+[1.378s] running build_py
+[1.379s] running install
+[1.390s] running install_lib
+[1.433s] running install_data
+[1.433s] running install_egg_info
+[1.433s] removing '/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable-0.0.0-py3.12.egg-info' (and everything under it)
+[1.433s] Copying ../../build/turntable/turntable.egg-info to /home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages/turntable-0.0.0-py3.12.egg-info
+[1.435s] running install_scripts
+[1.579s] Installing turntable_node script to /home/dduboi/ros_ws/install/turntable/lib/turntable
+[1.579s] writing list of installed files to '/home/dduboi/ros_ws/build/turntable/install.log'
+[1.614s] Invoked command in '/home/dduboi/ros_ws/src/turntable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turntable build --build-base /home/dduboi/ros_ws/build/turntable/build install --record /home/dduboi/ros_ws/build/turntable/install.log --single-version-externally-managed install_data

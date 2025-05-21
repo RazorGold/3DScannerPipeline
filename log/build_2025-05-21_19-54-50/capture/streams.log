@@ -1,0 +1,19 @@
+[2.825s] Invoking command in '/home/dduboi/ros_ws/src/capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/capture build --build-base /home/dduboi/ros_ws/build/capture/build install --record /home/dduboi/ros_ws/build/capture/install.log --single-version-externally-managed install_data
+[3.274s] running egg_info
+[3.301s] writing ../../build/capture/capture.egg-info/PKG-INFO
+[3.302s] writing dependency_links to ../../build/capture/capture.egg-info/dependency_links.txt
+[3.302s] writing requirements to ../../build/capture/capture.egg-info/requires.txt
+[3.302s] writing top-level names to ../../build/capture/capture.egg-info/top_level.txt
+[3.366s] reading manifest file '../../build/capture/capture.egg-info/SOURCES.txt'
+[3.371s] writing manifest file '../../build/capture/capture.egg-info/SOURCES.txt'
+[3.371s] running build
+[3.371s] running build_py
+[3.371s] running install
+[3.378s] running install_lib
+[3.425s] running install_data
+[3.426s] running install_egg_info
+[3.446s] removing '/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture-0.0.0-py3.12.egg-info' (and everything under it)
+[3.450s] Copying ../../build/capture/capture.egg-info to /home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages/capture-0.0.0-py3.12.egg-info
+[3.457s] running install_scripts
+[3.664s] writing list of installed files to '/home/dduboi/ros_ws/build/capture/install.log'
+[3.728s] Invoked command in '/home/dduboi/ros_ws/src/capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/capture build --build-base /home/dduboi/ros_ws/build/capture/build install --record /home/dduboi/ros_ws/build/capture/install.log --single-version-externally-managed install_data

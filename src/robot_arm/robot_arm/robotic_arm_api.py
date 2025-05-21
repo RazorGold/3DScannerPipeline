@@ -1,5 +1,5 @@
 import time
-from xarm.wrapper import XArmAPI
+from xarm.wrapper import XArmAPI #ignore error 
 from configparser import ConfigParser
 
 arm = None

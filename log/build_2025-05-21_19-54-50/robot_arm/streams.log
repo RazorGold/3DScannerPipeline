@@ -1,0 +1,24 @@
+[3.090s] Invoking command in '/home/dduboi/ros_ws/src/robot_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/dduboi/ros_ws/build/robot_arm/build install --record /home/dduboi/ros_ws/build/robot_arm/install.log --single-version-externally-managed install_data
+[3.759s] running egg_info
+[3.809s] writing ../../build/robot_arm/robot_arm.egg-info/PKG-INFO
+[3.809s] writing dependency_links to ../../build/robot_arm/robot_arm.egg-info/dependency_links.txt
+[3.810s] writing entry points to ../../build/robot_arm/robot_arm.egg-info/entry_points.txt
+[3.810s] writing requirements to ../../build/robot_arm/robot_arm.egg-info/requires.txt
+[3.810s] writing top-level names to ../../build/robot_arm/robot_arm.egg-info/top_level.txt
+[3.901s] reading manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[3.901s] writing manifest file '../../build/robot_arm/robot_arm.egg-info/SOURCES.txt'
+[3.917s] running build
+[3.918s] running build_py
+[3.918s] copying robot_arm/robot_node.py -> /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm
+[3.918s] running install
+[3.918s] running install_lib
+[3.946s] copying /home/dduboi/ros_ws/build/robot_arm/build/lib/robot_arm/robot_node.py -> /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm
+[3.946s] byte-compiling /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm/robot_node.py to robot_node.cpython-312.pyc
+[3.947s] running install_data
+[3.948s] running install_egg_info
+[3.985s] removing '/home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info' (and everything under it)
+[3.985s] Copying ../../build/robot_arm/robot_arm.egg-info to /home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages/robot_arm-0.0.0-py3.12.egg-info
+[3.988s] running install_scripts
+[4.170s] Installing robot_node script to /home/dduboi/ros_ws/install/robot_arm/lib/robot_arm
+[4.170s] writing list of installed files to '/home/dduboi/ros_ws/build/robot_arm/install.log'
+[4.249s] Invoked command in '/home/dduboi/ros_ws/src/robot_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm build --build-base /home/dduboi/ros_ws/build/robot_arm/build install --record /home/dduboi/ros_ws/build/robot_arm/install.log --single-version-externally-managed install_data

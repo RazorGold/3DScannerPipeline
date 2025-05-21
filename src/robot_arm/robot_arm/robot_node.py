@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-from robotic_arm_api import (
+from .robotic_arm_api import (
     init, moveto_base, move_into_scanning,
     rotate_faceup, rotate_faceside, arm
 )
@@ -12,7 +12,7 @@ class RoboticArmNode(Node):
         self.get_logger().info('Robotic Arm Node has started.')
 
         # Subscribe to commands
-        self.create_subscription(String, 'arm_command', self.command_callback, 10)
+        self.create_subscription(String, 'arm/command', self.command_callback, 10)
 
         # Command dispatch table
         self.command_map = {

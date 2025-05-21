@@ -27,10 +27,11 @@ class CentralNode(Node):
         self.capture_pub = self.create_publisher(String, 'capture/command', 10)
         self.ui_sub = self.create_subscription(String, 'ui/command', self.ui_callback, 10)
         self.control_sub = self.create_subscription(String, '/central_control/input', self.control_callback, 10)
+        self.arm_pub = self.create_publisher(String, 'arm/command', 10)
 
         # Service Clients
         self.turntable_client = self.create_client(Trigger, 'rotate_turntable_once')
-        self.robot_arm_client = self.create_client(Trigger, 'run_arm_sequence')
+        
 
         # Wait for services with interrupt support
         self.wait_for_services()
@@ -46,7 +47,8 @@ class CentralNode(Node):
             if self._skip_wait:
                 self.get_logger().warn("Skipping service wait due to user command.")
                 break
-            if self.turntable_client.service_is_ready() and self.robot_arm_client.service_is_ready():
+            if self.turntable_client.service_is_ready() and self.arm_pub.get_subscription_count() > 0:
+                self.arm_pub.publish(String(data='init'))
                 self.get_logger().info("All required services are now available.")
                 break
             rclpy.spin_once(self, timeout_sec=0.5)
@@ -111,7 +113,7 @@ class CentralNode(Node):
     def handle_scanning(self):
         self.get_logger().info("Initiating scanning sequence...")
 
-        if not self.turntable_client.service_is_ready() or not self.robot_arm_client.service_is_ready():
+        if not self.turntable_client.service_is_ready():
             self.get_logger().warn("One or more services unavailable. Transitioning to ERROR.")
             self.state = ScannerState.ERROR
             return
