@@ -1,0 +1,21 @@
+[1.888s] Invoking command in '/home/dduboi/ros_ws/src/mesh': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mesh build --build-base /home/dduboi/ros_ws/build/mesh/build install --record /home/dduboi/ros_ws/build/mesh/install.log --single-version-externally-managed install_data
+[2.268s] running egg_info
+[2.306s] writing ../../build/mesh/mesh.egg-info/PKG-INFO
+[2.307s] writing dependency_links to ../../build/mesh/mesh.egg-info/dependency_links.txt
+[2.308s] writing entry points to ../../build/mesh/mesh.egg-info/entry_points.txt
+[2.308s] writing requirements to ../../build/mesh/mesh.egg-info/requires.txt
+[2.309s] writing top-level names to ../../build/mesh/mesh.egg-info/top_level.txt
+[2.367s] reading manifest file '../../build/mesh/mesh.egg-info/SOURCES.txt'
+[2.368s] writing manifest file '../../build/mesh/mesh.egg-info/SOURCES.txt'
+[2.372s] running build
+[2.372s] running build_py
+[2.372s] running install
+[2.377s] running install_lib
+[2.425s] running install_data
+[2.425s] running install_egg_info
+[2.436s] removing '/home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh-0.0.0-py3.12.egg-info' (and everything under it)
+[2.439s] Copying ../../build/mesh/mesh.egg-info to /home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages/mesh-0.0.0-py3.12.egg-info
+[2.440s] running install_scripts
+[2.659s] Installing meshing_node script to /home/dduboi/ros_ws/install/mesh/lib/mesh
+[2.659s] writing list of installed files to '/home/dduboi/ros_ws/build/mesh/install.log'
+[2.864s] Invoked command in '/home/dduboi/ros_ws/src/mesh' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mesh build --build-base /home/dduboi/ros_ws/build/mesh/build install --record /home/dduboi/ros_ws/build/mesh/install.log --single-version-externally-managed install_data

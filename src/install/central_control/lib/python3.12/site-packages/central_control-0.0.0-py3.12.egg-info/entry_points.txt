@@ -1,0 +1,2 @@
+[console_scripts]
+central_node = central_control.central_node:main

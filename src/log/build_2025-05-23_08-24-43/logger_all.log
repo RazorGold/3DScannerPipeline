@@ -1,0 +1,462 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76e2321984d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76e232198140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76e232198140>>, mixin_verb=('build',))
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dduboi/ros_ws/src'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(capture) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'capture' with type 'ros.ament_python' and name 'capture'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(central_control) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'central_control' with type 'ros.ament_python' and name 'central_control'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(mesh) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'mesh' with type 'ros.ament_python' and name 'mesh'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(robot_arm) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_arm' with type 'ros.ament_python' and name 'robot_arm'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(threedim_scanner) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'threedim_scanner' with type 'ros.ament_python' and name 'threedim_scanner'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(turntable) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'turntable' with type 'ros.ament_python' and name 'turntable'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(user_interface) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'user_interface' with type 'ros.ament_python' and name 'user_interface'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(xarm_sdk) by extension 'python_setup_py'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'xarm_sdk' with type 'python' and name 'xarm-python-sdk'
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.660s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/dduboi/ros_ws/install
+[0.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/capture', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/capture', 'symlink_install': False, 'test_result_base': None}
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_target' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'central_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'central_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/central_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/central_control', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/central_control', 'symlink_install': False, 'test_result_base': None}
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'mesh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'mesh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/mesh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/mesh', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/mesh', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/robot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/robot_arm', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/robot_arm', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'threedim_scanner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'threedim_scanner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/threedim_scanner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/threedim_scanner', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/threedim_scanner', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'turntable' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'turntable' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/turntable', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/turntable', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/turntable', 'symlink_install': False, 'test_result_base': None}
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/user_interface', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/user_interface', 'symlink_install': False, 'test_result_base': None}
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_target' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'xarm-python-sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] DEBUG:colcon.colcon_core.verb:Building package 'xarm-python-sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dduboi/ros_ws/src/build/xarm-python-sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dduboi/ros_ws/src/install/xarm-python-sdk', 'merge_install': False, 'path': '/home/dduboi/ros_ws/src/xarm_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/capture' with build type 'ament_python'
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture', 'ament_prefix_path')
+[0.729s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/ament_prefix_path.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/ament_prefix_path.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/ament_prefix_path.sh'
+[0.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/central_control' with build type 'ament_python'
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_control', 'ament_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/ament_prefix_path.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/ament_prefix_path.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/ament_prefix_path.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/mesh' with build type 'ament_python'
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh', 'ament_prefix_path')
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/ament_prefix_path.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/ament_prefix_path.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/ament_prefix_path.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/robot_arm' with build type 'ament_python'
+[0.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'ament_prefix_path')
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/ament_prefix_path.ps1'
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/ament_prefix_path.dsv'
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/ament_prefix_path.sh'
+[0.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/capture'
+[1.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.302s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/central_control'
+[1.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.583s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/mesh'
+[1.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.836s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/robot_arm'
+[1.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/mesh': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mesh build --build-base /home/dduboi/ros_ws/src/build/mesh/build install --record /home/dduboi/ros_ws/src/build/mesh/install.log --single-version-externally-managed install_data
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/central_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/central_control build --build-base /home/dduboi/ros_ws/src/build/central_control/build install --record /home/dduboi/ros_ws/src/build/central_control/install.log --single-version-externally-managed install_data
+[2.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/robot_arm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_arm build --build-base /home/dduboi/ros_ws/src/build/robot_arm/build install --record /home/dduboi/ros_ws/src/build/robot_arm/install.log --single-version-externally-managed install_data
+[2.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/capture build --build-base /home/dduboi/ros_ws/src/build/capture/build install --record /home/dduboi/ros_ws/src/build/capture/install.log --single-version-externally-managed install_data
+[3.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/robot_arm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/robot_arm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/robot_arm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_arm build --build-base /home/dduboi/ros_ws/src/build/robot_arm/build install --record /home/dduboi/ros_ws/src/build/robot_arm/install.log --single-version-externally-managed install_data
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm' for CMake module files
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm' for CMake config files
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm/lib'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm/bin'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm/lib/pkgconfig/robot_arm.pc'
+[3.352s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm/lib/python3.12/site-packages'
+[3.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm', 'pythonpath')
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/pythonpath.ps1'
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/pythonpath.dsv'
+[3.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/hook/pythonpath.sh'
+[3.353s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/robot_arm/bin'
+[3.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm)
+[3.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/package.ps1'
+[3.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/package.dsv'
+[3.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/package.sh'
+[3.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/package.bash'
+[3.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/robot_arm/share/robot_arm/package.zsh'
+[3.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/robot_arm/share/colcon-core/packages/robot_arm)
+[3.359s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/threedim_scanner' with build type 'ament_python'
+[3.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('threedim_scanner', 'ament_prefix_path')
+[3.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/ament_prefix_path.ps1'
+[3.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/ament_prefix_path.dsv'
+[3.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/ament_prefix_path.sh'
+[3.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control' for CMake module files
+[3.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/central_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/central_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/central_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/central_control build --build-base /home/dduboi/ros_ws/src/build/central_control/build install --record /home/dduboi/ros_ws/src/build/central_control/install.log --single-version-externally-managed install_data
+[3.376s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control' for CMake config files
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control/lib'
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control/bin'
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control/lib/pkgconfig/central_control.pc'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control/lib/python3.12/site-packages'
+[3.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_control', 'pythonpath')
+[3.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/pythonpath.ps1'
+[3.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/pythonpath.dsv'
+[3.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/central_control/share/central_control/hook/pythonpath.sh'
+[3.379s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/central_control/bin'
+[3.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(central_control)
+[3.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/central_control/share/central_control/package.ps1'
+[3.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/central_control/share/central_control/package.dsv'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/central_control/share/central_control/package.sh'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/central_control/share/central_control/package.bash'
+[3.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/central_control/share/central_control/package.zsh'
+[3.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/central_control/share/colcon-core/packages/central_control)
+[3.382s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/turntable' with build type 'ament_python'
+[3.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('turntable', 'ament_prefix_path')
+[3.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/ament_prefix_path.ps1'
+[3.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/ament_prefix_path.dsv'
+[3.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/ament_prefix_path.sh'
+[3.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.393s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh' for CMake module files
+[3.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/mesh' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/mesh/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/mesh/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mesh build --build-base /home/dduboi/ros_ws/src/build/mesh/build install --record /home/dduboi/ros_ws/src/build/mesh/install.log --single-version-externally-managed install_data
+[3.395s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh' for CMake config files
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh/lib'
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh/bin'
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh/lib/pkgconfig/mesh.pc'
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh/lib/python3.12/site-packages'
+[3.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh', 'pythonpath')
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/pythonpath.ps1'
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/pythonpath.dsv'
+[3.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/mesh/share/mesh/hook/pythonpath.sh'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/mesh/bin'
+[3.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh)
+[3.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/mesh/share/mesh/package.ps1'
+[3.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/mesh/share/mesh/package.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/mesh/share/mesh/package.sh'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/mesh/share/mesh/package.bash'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/mesh/share/mesh/package.zsh'
+[3.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/mesh/share/colcon-core/packages/mesh)
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture' for CMake module files
+[3.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/capture build --build-base /home/dduboi/ros_ws/src/build/capture/build install --record /home/dduboi/ros_ws/src/build/capture/install.log --single-version-externally-managed install_data
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture' for CMake config files
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture/lib'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture/bin'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture/lib/pkgconfig/capture.pc'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages'
+[3.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('capture', 'pythonpath')
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/pythonpath.ps1'
+[3.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/pythonpath.dsv'
+[3.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/capture/share/capture/hook/pythonpath.sh'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/capture/bin'
+[3.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(capture)
+[3.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/capture/share/capture/package.ps1'
+[3.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/capture/share/capture/package.dsv'
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/capture/share/capture/package.sh'
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/capture/share/capture/package.bash'
+[3.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/capture/share/capture/package.zsh'
+[3.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/capture/share/colcon-core/packages/capture)
+[3.416s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dduboi/ros_ws/src/user_interface' with build type 'ament_python'
+[3.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ament_prefix_path')
+[3.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/ament_prefix_path.ps1'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/ament_prefix_path.dsv'
+[3.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/ament_prefix_path.sh'
+[3.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/xarm_sdk'
+[3.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.637s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/threedim_scanner'
+[3.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/turntable'
+[3.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.178s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dduboi/ros_ws/src/user_interface'
+[4.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/turntable': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turntable build --build-base /home/dduboi/ros_ws/src/build/turntable/build install --record /home/dduboi/ros_ws/src/build/turntable/install.log --single-version-externally-managed install_data
+[5.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/threedim_scanner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/threedim_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/threedim_scanner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/threedim_scanner build --build-base /home/dduboi/ros_ws/src/build/threedim_scanner/build install --record /home/dduboi/ros_ws/src/build/threedim_scanner/install.log --single-version-externally-managed install_data
+[5.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/user_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/user_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/user_interface build --build-base /home/dduboi/ros_ws/src/build/user_interface/build install --record /home/dduboi/ros_ws/src/build/user_interface/install.log --single-version-externally-managed install_data
+[5.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dduboi/ros_ws/src/xarm_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/src/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/src/build/xarm-python-sdk/install.log --single-version-externally-managed
+[6.102s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner' for CMake module files
+[6.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/threedim_scanner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/threedim_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/threedim_scanner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/threedim_scanner build --build-base /home/dduboi/ros_ws/src/build/threedim_scanner/build install --record /home/dduboi/ros_ws/src/build/threedim_scanner/install.log --single-version-externally-managed install_data
+[6.106s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner' for CMake config files
+[6.106s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner/lib'
+[6.106s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner/bin'
+[6.106s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner/lib/pkgconfig/threedim_scanner.pc'
+[6.107s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner/lib/python3.12/site-packages'
+[6.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('threedim_scanner', 'pythonpath')
+[6.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/pythonpath.ps1'
+[6.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/pythonpath.dsv'
+[6.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/hook/pythonpath.sh'
+[6.112s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/threedim_scanner/bin'
+[6.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(threedim_scanner)
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/package.ps1'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/package.dsv'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/package.sh'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/package.bash'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/threedim_scanner/share/threedim_scanner/package.zsh'
+[6.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/threedim_scanner/share/colcon-core/packages/threedim_scanner)
+[6.148s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable' for CMake module files
+[6.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/turntable' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/turntable/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/turntable/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turntable build --build-base /home/dduboi/ros_ws/src/build/turntable/build install --record /home/dduboi/ros_ws/src/build/turntable/install.log --single-version-externally-managed install_data
+[6.149s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable' for CMake config files
+[6.150s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable/lib'
+[6.150s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable/bin'
+[6.150s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable/lib/pkgconfig/turntable.pc'
+[6.150s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable/lib/python3.12/site-packages'
+[6.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('turntable', 'pythonpath')
+[6.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/pythonpath.ps1'
+[6.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/pythonpath.dsv'
+[6.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/turntable/share/turntable/hook/pythonpath.sh'
+[6.152s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/turntable/bin'
+[6.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turntable)
+[6.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/turntable/share/turntable/package.ps1'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/turntable/share/turntable/package.dsv'
+[6.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/turntable/share/turntable/package.sh'
+[6.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/turntable/share/turntable/package.bash'
+[6.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/turntable/share/turntable/package.zsh'
+[6.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/turntable/share/colcon-core/packages/turntable)
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface' for CMake module files
+[6.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/user_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/user_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/user_interface build --build-base /home/dduboi/ros_ws/src/build/user_interface/build install --record /home/dduboi/ros_ws/src/build/user_interface/install.log --single-version-externally-managed install_data
+[6.184s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface' for CMake config files
+[6.184s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface/lib'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface/bin'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface/lib/pkgconfig/user_interface.pc'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages'
+[6.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[6.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[6.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[6.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/user_interface/bin'
+[6.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[6.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/package.ps1'
+[6.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/package.dsv'
+[6.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/package.sh'
+[6.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/package.bash'
+[6.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/user_interface/share/user_interface/package.zsh'
+[6.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/user_interface/share/colcon-core/packages/user_interface)
+[6.446s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk' for CMake module files
+[6.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dduboi/ros_ws/src/xarm_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/src/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/src/build/xarm-python-sdk/install.log --single-version-externally-managed
+[6.448s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk' for CMake config files
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk/bin'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/pkgconfig/xarm-python-sdk.pc'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages'
+[6.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm-python-sdk', 'pythonpath')
+[6.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/hook/pythonpath.ps1'
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/hook/pythonpath.dsv'
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/hook/pythonpath.sh'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/dduboi/ros_ws/src/install/xarm-python-sdk/bin'
+[6.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm-python-sdk)
+[6.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/package.ps1'
+[6.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/package.dsv'
+[6.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/package.sh'
+[6.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/package.bash'
+[6.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/xarm-python-sdk/package.zsh'
+[6.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dduboi/ros_ws/src/install/xarm-python-sdk/share/colcon-core/packages/xarm-python-sdk)
+[6.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.455s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.466s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.469s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.469s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/src/install/local_setup.ps1'
+[6.471s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dduboi/ros_ws/src/install/_local_setup_util_ps1.py'
+[6.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/src/install/setup.ps1'
+[6.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/src/install/local_setup.sh'
+[6.473s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dduboi/ros_ws/src/install/_local_setup_util_sh.py'
+[6.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/src/install/setup.sh'
+[6.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/src/install/local_setup.bash'
+[6.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/src/install/setup.bash'
+[6.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dduboi/ros_ws/src/install/local_setup.zsh'
+[6.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dduboi/ros_ws/src/install/setup.zsh'

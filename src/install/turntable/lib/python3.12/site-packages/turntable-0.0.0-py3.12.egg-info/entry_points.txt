@@ -1,0 +1,2 @@
+[console_scripts]
+turntable_node = turntable.turntable_node:main

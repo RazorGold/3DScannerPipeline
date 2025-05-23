@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/threedim_scanner/threedim_scanner.egg-info
+writing ../../build/threedim_scanner/threedim_scanner.egg-info/PKG-INFO
+writing dependency_links to ../../build/threedim_scanner/threedim_scanner.egg-info/dependency_links.txt
+writing requirements to ../../build/threedim_scanner/threedim_scanner.egg-info/requires.txt
+writing top-level names to ../../build/threedim_scanner/threedim_scanner.egg-info/top_level.txt
+writing manifest file '../../build/threedim_scanner/threedim_scanner.egg-info/SOURCES.txt'
+reading manifest file '../../build/threedim_scanner/threedim_scanner.egg-info/SOURCES.txt'
+writing manifest file '../../build/threedim_scanner/threedim_scanner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dduboi/ros_ws/build/threedim_scanner/build
+creating /home/dduboi/ros_ws/build/threedim_scanner/build/lib
+creating /home/dduboi/ros_ws/build/threedim_scanner/build/lib/threedim_scanner
+copying threedim_scanner/__init__.py -> /home/dduboi/ros_ws/build/threedim_scanner/build/lib/threedim_scanner
+running install
+running install_lib
+creating /home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner
+copying /home/dduboi/ros_ws/build/threedim_scanner/build/lib/threedim_scanner/__init__.py -> /home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner
+byte-compiling /home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/dduboi/ros_ws/install/threedim_scanner/share/ament_index
+creating /home/dduboi/ros_ws/install/threedim_scanner/share/ament_index/resource_index
+creating /home/dduboi/ros_ws/install/threedim_scanner/share/ament_index/resource_index/packages
+copying resource/threedim_scanner -> /home/dduboi/ros_ws/install/threedim_scanner/share/ament_index/resource_index/packages
+copying package.xml -> /home/dduboi/ros_ws/install/threedim_scanner/share/threedim_scanner
+running install_egg_info
+Copying ../../build/threedim_scanner/threedim_scanner.egg-info to /home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dduboi/ros_ws/build/threedim_scanner/install.log'

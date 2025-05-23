@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/user_interface/user_interface.egg-info
+writing ../build/user_interface/user_interface.egg-info/PKG-INFO
+writing dependency_links to ../build/user_interface/user_interface.egg-info/dependency_links.txt
+writing entry points to ../build/user_interface/user_interface.egg-info/entry_points.txt
+writing requirements to ../build/user_interface/user_interface.egg-info/requires.txt
+writing top-level names to ../build/user_interface/user_interface.egg-info/top_level.txt
+writing manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+reading manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+writing manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dduboi/ros_ws/src/build/user_interface/build
+creating /home/dduboi/ros_ws/src/build/user_interface/build/lib
+creating /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+copying user_interface/ui_node.py -> /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+copying user_interface/__init__.py -> /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+running install
+running install_lib
+creating /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+copying /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface/ui_node.py -> /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+copying /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface/__init__.py -> /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+byte-compiling /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface/ui_node.py to ui_node.cpython-312.pyc
+byte-compiling /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index
+creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index
+creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index/packages
+copying resource/user_interface -> /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/dduboi/ros_ws/src/install/user_interface/share/user_interface
+running install_egg_info
+Copying ../build/user_interface/user_interface.egg-info to /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ui_node script to /home/dduboi/ros_ws/src/install/user_interface/lib/user_interface
+writing list of installed files to '/home/dduboi/ros_ws/src/build/user_interface/install.log'

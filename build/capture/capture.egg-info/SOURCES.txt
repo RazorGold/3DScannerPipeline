@@ -4,6 +4,7 @@ setup.py
 ../../build/capture/capture.egg-info/PKG-INFO
 ../../build/capture/capture.egg-info/SOURCES.txt
 ../../build/capture/capture.egg-info/dependency_links.txt
+../../build/capture/capture.egg-info/entry_points.txt
 ../../build/capture/capture.egg-info/requires.txt
 ../../build/capture/capture.egg-info/top_level.txt
 ../../build/capture/capture.egg-info/zip-safe

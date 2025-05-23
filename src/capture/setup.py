@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'capture_node = capture.capture_node:main',
         ],
     },
 )

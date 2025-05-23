@@ -1,0 +1,37 @@
+[2.038s] Invoking command in '/home/dduboi/ros_ws/src/user_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/user_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/user_interface build --build-base /home/dduboi/ros_ws/src/build/user_interface/build install --record /home/dduboi/ros_ws/src/build/user_interface/install.log --single-version-externally-managed install_data
+[2.365s] running egg_info
+[2.365s] creating ../build/user_interface/user_interface.egg-info
+[2.386s] writing ../build/user_interface/user_interface.egg-info/PKG-INFO
+[2.387s] writing dependency_links to ../build/user_interface/user_interface.egg-info/dependency_links.txt
+[2.388s] writing entry points to ../build/user_interface/user_interface.egg-info/entry_points.txt
+[2.388s] writing requirements to ../build/user_interface/user_interface.egg-info/requires.txt
+[2.389s] writing top-level names to ../build/user_interface/user_interface.egg-info/top_level.txt
+[2.390s] writing manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[2.478s] reading manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[2.485s] writing manifest file '../build/user_interface/user_interface.egg-info/SOURCES.txt'
+[2.485s] running build
+[2.485s] running build_py
+[2.485s] creating /home/dduboi/ros_ws/src/build/user_interface/build
+[2.485s] creating /home/dduboi/ros_ws/src/build/user_interface/build/lib
+[2.485s] creating /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+[2.485s] copying user_interface/ui_node.py -> /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+[2.485s] copying user_interface/__init__.py -> /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface
+[2.485s] running install
+[2.492s] running install_lib
+[2.520s] creating /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+[2.520s] copying /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface/ui_node.py -> /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+[2.521s] copying /home/dduboi/ros_ws/src/build/user_interface/build/lib/user_interface/__init__.py -> /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface
+[2.522s] byte-compiling /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface/ui_node.py to ui_node.cpython-312.pyc
+[2.616s] byte-compiling /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py to __init__.cpython-312.pyc
+[2.616s] running install_data
+[2.617s] creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index
+[2.617s] creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index
+[2.617s] creating /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index/packages
+[2.617s] copying resource/user_interface -> /home/dduboi/ros_ws/src/install/user_interface/share/ament_index/resource_index/packages
+[2.617s] copying package.xml -> /home/dduboi/ros_ws/src/install/user_interface/share/user_interface
+[2.617s] running install_egg_info
+[2.617s] Copying ../build/user_interface/user_interface.egg-info to /home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages/user_interface-0.0.0-py3.12.egg-info
+[2.617s] running install_scripts
+[2.739s] Installing ui_node script to /home/dduboi/ros_ws/src/install/user_interface/lib/user_interface
+[2.739s] writing list of installed files to '/home/dduboi/ros_ws/src/build/user_interface/install.log'
+[2.766s] Invoked command in '/home/dduboi/ros_ws/src/user_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/user_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/user_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/user_interface build --build-base /home/dduboi/ros_ws/src/build/user_interface/build install --record /home/dduboi/ros_ws/src/build/user_interface/install.log --single-version-externally-managed install_data

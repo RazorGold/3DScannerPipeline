@@ -1,0 +1,234 @@
+[2.035s] Invoking command in '/home/dduboi/ros_ws/src/xarm_sdk': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/src/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/src/build/xarm-python-sdk/install.log --single-version-externally-managed
+[2.612s] running egg_info
+[2.612s] creating ../build/xarm-python-sdk/xarm_python_sdk.egg-info
+[2.612s] writing ../build/xarm-python-sdk/xarm_python_sdk.egg-info/PKG-INFO
+[2.612s] writing dependency_links to ../build/xarm-python-sdk/xarm_python_sdk.egg-info/dependency_links.txt
+[2.612s] writing top-level names to ../build/xarm-python-sdk/xarm_python_sdk.egg-info/top_level.txt
+[2.612s] writing manifest file '../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+[2.630s] reading manifest file '../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+[2.630s] adding license file 'LICENSE'
+[2.631s] writing manifest file '../build/xarm-python-sdk/xarm_python_sdk.egg-info/SOURCES.txt'
+[2.632s] running build
+[2.632s] running build_py
+[2.632s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build
+[2.633s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib
+[2.633s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm
+[2.633s] copying xarm/build_backend.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm
+[2.634s] copying xarm/version.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm
+[2.634s] copying xarm/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm
+[2.634s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core
+[2.634s] copying xarm/core/version.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core
+[2.635s] copying xarm/core/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core
+[2.635s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.636s] copying xarm/tools/gcode.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.636s] copying xarm/tools/modbus_tcp.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.637s] copying xarm/tools/threads.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.637s] copying xarm/tools/list_ports.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.637s] copying xarm/tools/utils.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.638s] copying xarm/tools/blockly_tool.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.638s] copying xarm/tools/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools
+[2.638s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.639s] copying xarm/x3/track.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.639s] copying xarm/x3/xarm.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.640s] copying xarm/x3/ft_sensor.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.640s] copying xarm/x3/servo.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.640s] copying xarm/x3/studio.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.641s] copying xarm/x3/modbus_tcp.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.641s] copying xarm/x3/base_board.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.642s] copying xarm/x3/base.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.642s] copying xarm/x3/code.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.642s] copying xarm/x3/events.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.643s] copying xarm/x3/grammar_async.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.643s] copying xarm/x3/gpio.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.643s] copying xarm/x3/grammar_coroutine.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.644s] copying xarm/x3/utils.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.644s] copying xarm/x3/decorator.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.644s] copying xarm/x3/parse.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.645s] copying xarm/x3/robotiq.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.645s] copying xarm/x3/gripper.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.645s] copying xarm/x3/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.645s] copying xarm/x3/record.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.645s] copying xarm/x3/report.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3
+[2.646s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper
+[2.646s] copying xarm/wrapper/studio_api.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper
+[2.647s] copying xarm/wrapper/xarm_api.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper
+[2.647s] copying xarm/wrapper/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper
+[2.647s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config
+[2.647s] copying xarm/core/config/x_code.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config
+[2.648s] copying xarm/core/config/x_config.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config
+[2.648s] copying xarm/core/config/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config
+[2.648s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] copying xarm/core/comm/base.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] copying xarm/core/comm/serial_port.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] copying xarm/core/comm/uxbus_cmd_protocol.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] copying xarm/core/comm/socket_port.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] copying xarm/core/comm/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm
+[2.670s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.670s] copying xarm/core/utils/crc16.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.671s] copying xarm/core/utils/debug_print.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.671s] copying xarm/core/utils/convert.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.671s] copying xarm/core/utils/log.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.671s] copying xarm/core/utils/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils
+[2.671s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+[2.671s] copying xarm/core/wrapper/uxbus_cmd.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+[2.671s] copying xarm/core/wrapper/uxbus_cmd_ser.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+[2.671s] copying xarm/core/wrapper/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+[2.671s] copying xarm/core/wrapper/uxbus_cmd_tcp.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper
+[2.671s] creating /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.671s] copying xarm/tools/blockly/_blockly_node.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.671s] copying xarm/tools/blockly/_blockly_tool.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.671s] copying xarm/tools/blockly/_blockly_handler.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.671s] copying xarm/tools/blockly/_blockly_highlight.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.671s] copying xarm/tools/blockly/_blockly_base.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.672s] copying xarm/tools/blockly/__init__.py -> /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly
+[2.672s] running install
+[2.672s] running install_lib
+[2.687s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+[2.688s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+[2.690s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+[2.694s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config/x_code.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+[2.695s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config/x_config.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+[2.695s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/config/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config
+[2.695s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/version.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+[2.695s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.695s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm/base.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.695s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm/serial_port.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm/uxbus_cmd_protocol.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm/socket_port.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/comm/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm
+[2.696s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils/crc16.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils/debug_print.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils/convert.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils/log.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/utils/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils
+[2.696s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+[2.696s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd_ser.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/wrapper/uxbus_cmd_tcp.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/core/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core
+[2.697s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/gcode.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/modbus_tcp.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.697s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_node.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_tool.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_handler.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_highlight.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/_blockly_base.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.697s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/threads.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/list_ports.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/utils.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/blockly_tool.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/tools/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/build_backend.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+[2.698s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.698s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/track.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/xarm.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/ft_sensor.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/servo.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/studio.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/modbus_tcp.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/base_board.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/base.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/code.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/events.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.704s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/grammar_async.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/gpio.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/grammar_coroutine.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/utils.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/decorator.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/parse.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/robotiq.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/gripper.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/record.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.705s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/x3/report.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3
+[2.706s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/version.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+[2.706s] creating /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+[2.706s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper/studio_api.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+[2.706s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper/xarm_api.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+[2.706s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/wrapper/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper
+[2.706s] copying /home/dduboi/ros_ws/src/build/xarm-python-sdk/build/lib/xarm/__init__.py -> /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm
+[2.706s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/x_code.py to x_code.cpython-312.pyc
+[2.706s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/x_config.py to x_config.cpython-312.pyc
+[2.709s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/config/__init__.py to __init__.cpython-312.pyc
+[2.709s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/version.py to version.cpython-312.pyc
+[2.709s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/base.py to base.cpython-312.pyc
+[2.718s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/serial_port.py to serial_port.cpython-312.pyc
+[2.718s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/uxbus_cmd_protocol.py to uxbus_cmd_protocol.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/socket_port.py to socket_port.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/comm/__init__.py to __init__.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/crc16.py to crc16.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/debug_print.py to debug_print.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/convert.py to convert.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/log.py to log.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/utils/__init__.py to __init__.cpython-312.pyc
+[2.719s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd.py to uxbus_cmd.cpython-312.pyc
+[2.736s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd_ser.py to uxbus_cmd_ser.cpython-312.pyc
+[2.737s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/__init__.py to __init__.cpython-312.pyc
+[2.737s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/wrapper/uxbus_cmd_tcp.py to uxbus_cmd_tcp.cpython-312.pyc
+[2.739s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/core/__init__.py to __init__.cpython-312.pyc
+[2.740s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/gcode.py to gcode.cpython-312.pyc
+[2.741s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/modbus_tcp.py to modbus_tcp.cpython-312.pyc
+[2.743s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_node.py to _blockly_node.cpython-312.pyc
+[2.743s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_tool.py to _blockly_tool.cpython-312.pyc
+[2.747s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py to _blockly_handler.cpython-312.pyc
+[2.750s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:448: SyntaxWarning: invalid escape sequence '\d'
+[2.750s]   if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+[2.750s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:566: SyntaxWarning: invalid escape sequence '\d'
+[2.751s]   if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+[2.751s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:613: SyntaxWarning: invalid escape sequence '\d'
+[2.751s]   if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+[2.751s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:645: SyntaxWarning: invalid escape sequence '\d'
+[2.751s]   if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+[2.755s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1236: SyntaxWarning: invalid escape sequence '\s'
+[2.755s]   code_indent = re.match('(\s*).*', code).group(1)
+[2.755s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1275: SyntaxWarning: invalid escape sequence '\s'
+[2.756s]   cmd_li = re.sub('\s+', ' ', cmd_li)
+[2.769s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_highlight.py to _blockly_highlight.cpython-312.pyc
+[2.771s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_base.py to _blockly_base.cpython-312.pyc
+[2.771s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_base.py:204: SyntaxWarning: invalid escape sequence '\s'
+[2.772s]   cmd_li = re.sub('\s+', ' ', cmd_li)
+[2.773s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/__init__.py to __init__.cpython-312.pyc
+[2.773s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/threads.py to threads.cpython-312.pyc
+[2.774s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/list_ports.py to list_ports.cpython-312.pyc
+[2.776s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/utils.py to utils.cpython-312.pyc
+[2.776s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly_tool.py to blockly_tool.cpython-312.pyc
+[2.789s] /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly_tool.py:1854: SyntaxWarning: invalid escape sequence '\p'
+[2.789s]   blockly = BlocklyTool('C:\\Users\\ufactory\\.UFACTORY\projects\\test\\xarm6\\app\\myapp\local_test_1\\app.xml')
+[2.796s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/__init__.py to __init__.cpython-312.pyc
+[2.796s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/build_backend.py to build_backend.cpython-312.pyc
+[2.797s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/track.py to track.cpython-312.pyc
+[2.801s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/xarm.py to xarm.cpython-312.pyc
+[2.826s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/ft_sensor.py to ft_sensor.cpython-312.pyc
+[2.829s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/servo.py to servo.cpython-312.pyc
+[2.833s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/studio.py to studio.cpython-312.pyc
+[2.834s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/modbus_tcp.py to modbus_tcp.cpython-312.pyc
+[2.837s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/base_board.py to base_board.cpython-312.pyc
+[2.838s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/base.py to base.cpython-312.pyc
+[2.860s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/code.py to code.cpython-312.pyc
+[2.860s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/events.py to events.cpython-312.pyc
+[2.861s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/grammar_async.py to grammar_async.cpython-312.pyc
+[2.862s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/gpio.py to gpio.cpython-312.pyc
+[2.867s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/grammar_coroutine.py to grammar_coroutine.cpython-312.pyc
+[2.867s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/utils.py to utils.cpython-312.pyc
+[2.868s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/decorator.py to decorator.cpython-312.pyc
+[2.869s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/parse.py to parse.cpython-312.pyc
+[2.871s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/robotiq.py to robotiq.cpython-312.pyc
+[2.873s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/gripper.py to gripper.cpython-312.pyc
+[2.879s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/__init__.py to __init__.cpython-312.pyc
+[2.880s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/record.py to record.cpython-312.pyc
+[2.882s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/x3/report.py to report.cpython-312.pyc
+[2.885s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/version.py to version.cpython-312.pyc
+[2.885s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/studio_api.py to studio_api.cpython-312.pyc
+[2.886s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/xarm_api.py to xarm_api.cpython-312.pyc
+[2.897s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/wrapper/__init__.py to __init__.cpython-312.pyc
+[2.897s] byte-compiling /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/__init__.py to __init__.cpython-312.pyc
+[2.899s] running install_egg_info
+[2.925s] Copying ../build/xarm-python-sdk/xarm_python_sdk.egg-info to /home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm_python_sdk-1.15.3-py3.12.egg-info
+[2.927s] running install_scripts
+[2.989s] writing list of installed files to '/home/dduboi/ros_ws/src/build/xarm-python-sdk/install.log'
+[3.024s] Invoked command in '/home/dduboi/ros_ws/src/xarm_sdk' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/xarm-python-sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/xarm-python-sdk build --build-base /home/dduboi/ros_ws/src/build/xarm-python-sdk/build install --record /home/dduboi/ros_ws/src/build/xarm-python-sdk/install.log --single-version-externally-managed

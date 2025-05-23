@@ -1,0 +1,6 @@
+source;share/mesh/hook/pythonpath.ps1
+source;share/mesh/hook/pythonpath.dsv
+source;share/mesh/hook/pythonpath.sh
+source;share/mesh/hook/ament_prefix_path.ps1
+source;share/mesh/hook/ament_prefix_path.dsv
+source;share/mesh/hook/ament_prefix_path.sh

@@ -1,0 +1,2 @@
+[console_scripts]
+capture_node = capture.capture_node:main

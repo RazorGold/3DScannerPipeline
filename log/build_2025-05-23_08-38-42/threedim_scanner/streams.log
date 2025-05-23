@@ -1,0 +1,19 @@
+[1.498s] Invoking command in '/home/dduboi/ros_ws/src/threedim_scanner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/threedim_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/threedim_scanner build --build-base /home/dduboi/ros_ws/build/threedim_scanner/build install --record /home/dduboi/ros_ws/build/threedim_scanner/install.log --single-version-externally-managed install_data
+[1.852s] running egg_info
+[1.880s] writing ../../build/threedim_scanner/threedim_scanner.egg-info/PKG-INFO
+[1.880s] writing dependency_links to ../../build/threedim_scanner/threedim_scanner.egg-info/dependency_links.txt
+[1.881s] writing requirements to ../../build/threedim_scanner/threedim_scanner.egg-info/requires.txt
+[1.883s] writing top-level names to ../../build/threedim_scanner/threedim_scanner.egg-info/top_level.txt
+[1.938s] reading manifest file '../../build/threedim_scanner/threedim_scanner.egg-info/SOURCES.txt'
+[1.938s] writing manifest file '../../build/threedim_scanner/threedim_scanner.egg-info/SOURCES.txt'
+[1.939s] running build
+[1.940s] running build_py
+[1.941s] running install
+[1.952s] running install_lib
+[1.980s] running install_data
+[1.980s] running install_egg_info
+[2.008s] removing '/home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner-0.0.0-py3.12.egg-info' (and everything under it)
+[2.009s] Copying ../../build/threedim_scanner/threedim_scanner.egg-info to /home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages/threedim_scanner-0.0.0-py3.12.egg-info
+[2.011s] running install_scripts
+[2.186s] writing list of installed files to '/home/dduboi/ros_ws/build/threedim_scanner/install.log'
+[2.227s] Invoked command in '/home/dduboi/ros_ws/src/threedim_scanner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/build/threedim_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/install/threedim_scanner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/threedim_scanner build --build-base /home/dduboi/ros_ws/build/threedim_scanner/build install --record /home/dduboi/ros_ws/build/threedim_scanner/install.log --single-version-externally-managed install_data

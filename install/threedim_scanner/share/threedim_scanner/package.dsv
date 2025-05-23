@@ -1,0 +1,6 @@
+source;share/threedim_scanner/hook/pythonpath.ps1
+source;share/threedim_scanner/hook/pythonpath.dsv
+source;share/threedim_scanner/hook/pythonpath.sh
+source;share/threedim_scanner/hook/ament_prefix_path.ps1
+source;share/threedim_scanner/hook/ament_prefix_path.dsv
+source;share/threedim_scanner/hook/ament_prefix_path.sh

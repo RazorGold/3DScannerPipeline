@@ -1,0 +1,16 @@
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:448: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:566: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:613: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:645: SyntaxWarning: invalid escape sequence '\d'
+  if re.match('\d+(\.\d+)*$', xyz_li[i]) is not None:
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1236: SyntaxWarning: invalid escape sequence '\s'
+  code_indent = re.match('(\s*).*', code).group(1)
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_handler.py:1275: SyntaxWarning: invalid escape sequence '\s'
+  cmd_li = re.sub('\s+', ' ', cmd_li)
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly/_blockly_base.py:204: SyntaxWarning: invalid escape sequence '\s'
+  cmd_li = re.sub('\s+', ' ', cmd_li)
+/home/dduboi/ros_ws/src/install/xarm-python-sdk/lib/python3.12/site-packages/xarm/tools/blockly_tool.py:1854: SyntaxWarning: invalid escape sequence '\p'
+  blockly = BlocklyTool('C:\\Users\\ufactory\\.UFACTORY\projects\\test\\xarm6\\app\\myapp\local_test_1\\app.xml')

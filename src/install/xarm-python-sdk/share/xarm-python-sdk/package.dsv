@@ -1,0 +1,3 @@
+source;share/xarm-python-sdk/hook/pythonpath.ps1
+source;share/xarm-python-sdk/hook/pythonpath.dsv
+source;share/xarm-python-sdk/hook/pythonpath.sh

@@ -1,0 +1,35 @@
+[1.898s] Invoking command in '/home/dduboi/ros_ws/src/capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/capture build --build-base /home/dduboi/ros_ws/src/build/capture/build install --record /home/dduboi/ros_ws/src/build/capture/install.log --single-version-externally-managed install_data
+[2.251s] running egg_info
+[2.251s] creating ../build/capture/capture.egg-info
+[2.286s] writing ../build/capture/capture.egg-info/PKG-INFO
+[2.286s] writing dependency_links to ../build/capture/capture.egg-info/dependency_links.txt
+[2.287s] writing requirements to ../build/capture/capture.egg-info/requires.txt
+[2.287s] writing top-level names to ../build/capture/capture.egg-info/top_level.txt
+[2.287s] writing manifest file '../build/capture/capture.egg-info/SOURCES.txt'
+[2.342s] reading manifest file '../build/capture/capture.egg-info/SOURCES.txt'
+[2.344s] writing manifest file '../build/capture/capture.egg-info/SOURCES.txt'
+[2.344s] running build
+[2.344s] running build_py
+[2.345s] creating /home/dduboi/ros_ws/src/build/capture/build
+[2.345s] creating /home/dduboi/ros_ws/src/build/capture/build/lib
+[2.345s] creating /home/dduboi/ros_ws/src/build/capture/build/lib/capture
+[2.345s] copying capture/capture_node.py -> /home/dduboi/ros_ws/src/build/capture/build/lib/capture
+[2.345s] copying capture/__init__.py -> /home/dduboi/ros_ws/src/build/capture/build/lib/capture
+[2.345s] running install
+[2.357s] running install_lib
+[2.388s] creating /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture
+[2.389s] copying /home/dduboi/ros_ws/src/build/capture/build/lib/capture/capture_node.py -> /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture
+[2.389s] copying /home/dduboi/ros_ws/src/build/capture/build/lib/capture/__init__.py -> /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture
+[2.393s] byte-compiling /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture/capture_node.py to capture_node.cpython-312.pyc
+[2.393s] byte-compiling /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture/__init__.py to __init__.cpython-312.pyc
+[2.393s] running install_data
+[2.393s] creating /home/dduboi/ros_ws/src/install/capture/share/ament_index
+[2.393s] creating /home/dduboi/ros_ws/src/install/capture/share/ament_index/resource_index
+[2.393s] creating /home/dduboi/ros_ws/src/install/capture/share/ament_index/resource_index/packages
+[2.393s] copying resource/capture -> /home/dduboi/ros_ws/src/install/capture/share/ament_index/resource_index/packages
+[2.393s] copying package.xml -> /home/dduboi/ros_ws/src/install/capture/share/capture
+[2.393s] running install_egg_info
+[2.423s] Copying ../build/capture/capture.egg-info to /home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages/capture-0.0.0-py3.12.egg-info
+[2.425s] running install_scripts
+[2.590s] writing list of installed files to '/home/dduboi/ros_ws/src/build/capture/install.log'
+[2.679s] Invoked command in '/home/dduboi/ros_ws/src/capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dduboi/ros_ws/src/build/capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dduboi/ros_ws/src/install/capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/capture build --build-base /home/dduboi/ros_ws/src/build/capture/build install --record /home/dduboi/ros_ws/src/build/capture/install.log --single-version-externally-managed install_data
