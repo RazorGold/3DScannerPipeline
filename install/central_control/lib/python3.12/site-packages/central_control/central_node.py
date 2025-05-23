@@ -4,7 +4,7 @@ from std_msgs.msg import String
 from std_srvs.srv import Trigger
 from enum import Enum
 import threading
-import sys
+import time
 
 class ScannerState(Enum):
     IDLE = 'IDLE'
@@ -21,24 +21,21 @@ class CentralNode(Node):
         self.state = ScannerState.IDLE
         self.paused = False
         self._skip_wait = False
+        self._waiting_for_faceup = False
+        self._post_faceup_loop_started = False
 
         # Publishers and Subscribers
         self.command_pub = self.create_publisher(String, 'central_control/command', 10)
         self.capture_pub = self.create_publisher(String, 'capture/command', 10)
         self.ui_sub = self.create_subscription(String, 'ui/command', self.ui_callback, 10)
         self.control_sub = self.create_subscription(String, '/central_control/input', self.control_callback, 10)
-        self.arm_pub = self.create_publisher(String, 'arm/command', 10)
+        self.arm_pub = self.create_publisher(String, '/arm_command', 10)
 
         # Service Clients
         self.turntable_client = self.create_client(Trigger, 'rotate_turntable_once')
-        
 
-        # Wait for services with interrupt support
         self.wait_for_services()
-
-        # Periodic timer
         self.timer = self.create_timer(2.0, self.timer_callback)
-
         self.get_logger().info("Central Control Node initialized.")
 
     def wait_for_services(self):
@@ -47,7 +44,7 @@ class CentralNode(Node):
             if self._skip_wait:
                 self.get_logger().warn("Skipping service wait due to user command.")
                 break
-            if self.turntable_client.service_is_ready() and self.arm_pub.get_subscription_count() > 0:
+            if self.turntable_client.service_is_ready():
                 self.arm_pub.publish(String(data='init'))
                 self.get_logger().info("All required services are now available.")
                 break
@@ -56,7 +53,6 @@ class CentralNode(Node):
     def control_callback(self, msg: String):
         cmd = msg.data.strip().lower()
         self.get_logger().info(f"Received control command: {cmd}")
-
         state_order = [
             ScannerState.IDLE,
             ScannerState.CALIBRATION,
@@ -85,9 +81,16 @@ class CentralNode(Node):
             self.get_logger().warn(f"Unknown command received: {cmd}")
 
     def ui_callback(self, msg: String):
-        if self.state == ScannerState.IDLE and msg.data.strip().lower() == 'start':
+        msg_data = msg.data.strip().lower()
+        if self.state == ScannerState.IDLE and msg_data == 'start':
             self.get_logger().info("Start command received from UI. Transitioning to CALIBRATION.")
             self.state = ScannerState.CALIBRATION
+        elif self._waiting_for_faceup and msg_data.startswith("rotate_faceup:"):
+            self.arm_pub.publish(String(data=msg.data))
+            self.get_logger().info(f"Sent rotate_faceup command with measurements: {msg.data}")
+            self._waiting_for_faceup = False
+            self._post_faceup_loop_started = True
+            self.start_second_scan_loop()
         else:
             self.get_logger().info(f"Ignoring UI message: {msg.data} (Current state: {self.state.value})")
 
@@ -111,30 +114,54 @@ class CentralNode(Node):
         self.get_logger().info("Calibration checks passed. Transitioning to SCANNING.")
 
     def handle_scanning(self):
-        self.get_logger().info("Initiating scanning sequence...")
+        def scan_cycle():
+            self.arm_pub.publish(String(data='move_to_scanning'))
+            self.get_logger().info("Sent move_to_scanning to arm.")
+            time.sleep(1.0)
 
-        if not self.turntable_client.service_is_ready():
-            self.get_logger().warn("One or more services unavailable. Transitioning to ERROR.")
-            self.state = ScannerState.ERROR
-            return
+            self.capture_pub.publish(String(data='capture'))
+            self.get_logger().info("Initial capture sent.")
 
-        arm_future = self.robot_arm_client.call_async(Trigger.Request())
-        table_future = self.turntable_client.call_async(Trigger.Request())
+            for i in range(24):
+                self.get_logger().info(f"[Cycle 1] Step {i+1}/24: Rotating turntable...")
+                future = self.turntable_client.call_async(Trigger.Request())
+                rclpy.spin_until_future_complete(self, future)
+                if not future.result().success:
+                    self.get_logger().error("Turntable rotation failed.")
+                    self.state = ScannerState.ERROR
+                    return
+                self.capture_pub.publish(String(data='capture'))
+                time.sleep(0.2)
 
-        def on_both_complete():
-            if arm_future.result().success and table_future.result().success:
-                self.get_logger().info("Scanning complete. Transitioning to PROCESSING.")
-                self.state = ScannerState.PROCESSING
-            else:
-                self.get_logger().error("Error during scanning. Entering ERROR state.")
-                self.state = ScannerState.ERROR
+            self.get_logger().info("Waiting for rotate_faceup measurements...")
+            self._waiting_for_faceup = True
+            self.state = ScannerState.WAITING
 
-        def check_futures():
-            rclpy.spin_until_future_complete(self, arm_future)
-            rclpy.spin_until_future_complete(self, table_future)
-            on_both_complete()
+        threading.Thread(target=scan_cycle, daemon=True).start()
+        self.state = ScannerState.WAITING
 
-        threading.Thread(target=check_futures, daemon=True).start()
+    def start_second_scan_loop(self):
+        def second_loop():
+            time.sleep(1.0)
+            self.capture_pub.publish(String(data='capture'))
+            self.get_logger().info("Post-faceup: Initial capture.")
+
+            for i in range(24):
+                self.get_logger().info(f"[Cycle 2] Step {i+1}/24: Rotating turntable...")
+                future = self.turntable_client.call_async(Trigger.Request())
+                rclpy.spin_until_future_complete(self, future)
+                if not future.result().success:
+                    self.get_logger().error("Turntable rotation failed.")
+                    self.state = ScannerState.ERROR
+                    return
+                self.capture_pub.publish(String(data='capture'))
+                time.sleep(0.2)
+
+            self.get_logger().info("Scanning complete. Transitioning to PROCESSING.")
+            self._post_faceup_loop_started = False
+            self.state = ScannerState.PROCESSING
+
+        threading.Thread(target=second_loop, daemon=True).start()
         self.state = ScannerState.WAITING
 
     def handle_waiting(self):
